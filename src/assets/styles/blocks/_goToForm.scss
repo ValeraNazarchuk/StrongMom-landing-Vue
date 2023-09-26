@@ -1,0 +1,20 @@
+.go-form {
+  margin: 80px 0 160px;
+  padding: 100px;
+  border-radius: 3px;
+  background-image: url(../images/bg-go-to-form.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: $fs-white;
+    font-size: 50px;
+    font-weight: 700;
+  }
+}

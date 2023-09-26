@@ -1,0 +1,51 @@
+.footer {
+  padding: 80px 0;
+  margin-top: auto;
+  width: 100%;
+  background-color: #423c4e;
+  color: $fs-white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  &__inner {
+    padding: 0 15px;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 40px;
+    font-weight: 700;
+    transition: all 0.4s;
+    &:hover {
+      color: $fs-purple-light;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    gap: 20px;
+    &-link {
+      max-height: 32px;
+      img {
+        transition: all 0.4s;
+        &:hover {
+          transform: scale(1.1);
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+
+  &__list {
+    &-link {
+      transition: all 0.3s;
+
+      &:hover {
+        color: $fs-purple-light;
+      }
+    }
+  }
+}
