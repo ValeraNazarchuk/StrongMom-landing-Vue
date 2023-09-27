@@ -1,5 +1,5 @@
 <template>
-  <button @click="onClick" :style="buttonStyle" class="primary-button">
+  <button @click="onClick" :style="buttonStyle" class="primary-button" @mouseleave="mouseleave">
     {{ buttonText }}
   </button>
 </template>
@@ -16,6 +16,10 @@ export default defineComponent({
     onClick: {
       type: Function as PropType<(e: MouseEvent) => void>,
     },
+    mouseleave: {
+      type: Function as PropType<(e: MouseEvent) => void>,
+    },
+
   },
   computed: {
     buttonStyle() {

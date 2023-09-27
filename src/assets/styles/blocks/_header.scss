@@ -111,7 +111,7 @@
 .header__down-link {
   transition: all 0.3s;
   &:hover{
-    text-shadow: 1px 1px 3px black;
+    color: $fs-purple-light;
   }
 }
 
@@ -127,6 +127,10 @@
   display: flex;
   gap: 5px;
   align-items: center;
+  transition: all .4s;
+  &:hover {
+    color: $fs-purple-light;
+  }
 }
 
 /* _________________ */
