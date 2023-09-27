@@ -15,14 +15,14 @@
             href="https://play.google.com"
             target="_blank"
           >
-            <img src="../assets/images/google-store.png" alt="store" />
+            <img src="../../assets/images/google-store.png" alt="store" />
           </a>
           <a
             class="banner__box-link"
             href="https://www.apple.com"
             target="_blank"
           >
-            <img src="../assets/images/app-store.png" alt="store" />
+            <img src="../../assets/images/app-store.png" alt="store" />
           </a>
         </div>
       </div>
