@@ -2,17 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Form from '../views/Form.vue'
 
-interface IRoutes {
-  path: string
-  name: string
-  component: {
-    name: string
-  }
-}
-
-const routes: IRoutes[] = [
+const routes = [
   {
     path: '/',
+    redirect: '/home', 
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: Home,
   },
