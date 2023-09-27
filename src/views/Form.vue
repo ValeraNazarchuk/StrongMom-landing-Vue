@@ -18,7 +18,7 @@
         <PrimaryButton
           buttonText="Submit"
           @click="handleClick"
-          buttonWidth="400px"
+          buttonMaxWidth="400px"
           buttonWHeight="60px"
         />
       </div>
@@ -50,7 +50,7 @@ export default defineComponent({
   methods: {
     handleClick() {
       console.log(`
-        Відправлені данні:
+        Відправлені дані:
         firstName: ${this.data.firstName}
         secondName: ${this.data.secondName}
         email: ${this.data.email}

@@ -2,7 +2,7 @@
   <div class="header__down-box">
     <PrimaryButton
       buttonText="Download"
-      buttonWidth="165px"
+      buttonMaxWidth="165px"
       buttonWHeight="45px"
       :onClick="toggleDropdown"
     />

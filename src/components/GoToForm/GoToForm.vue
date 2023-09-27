@@ -5,7 +5,7 @@
       <RouterLink class="go-form__link" to="/form">
         <PrimaryButton
           buttonText="Go to form"
-          buttonWidth="400px"
+          buttonMaxWidth="400px"
           buttonWHeight="60px"
         />
       </RouterLink>

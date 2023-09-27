@@ -11,7 +11,7 @@ export default defineComponent({
   name: 'PrimaryButton',
   props: {
     buttonText: String,
-    buttonWidth: String,
+    buttonMaxWidth: String,
     buttonWHeight: String,
     onClick: {
       type: Function as PropType<(e: MouseEvent) => void>,
@@ -24,7 +24,7 @@ export default defineComponent({
   computed: {
     buttonStyle() {
       return {
-        maxWidth: this.buttonWidth,
+        maxWidth: this.buttonMaxWidth,
         height: this.buttonWHeight,
       }
     },
