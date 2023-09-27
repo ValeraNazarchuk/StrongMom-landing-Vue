@@ -50,7 +50,7 @@ export default defineComponent({
   methods: {
     handleClick() {
       console.log(`
-        Отправленные данные:
+        Відправлені данні:
         firstName: ${this.data.firstName}
         secondName: ${this.data.secondName}
         email: ${this.data.email}

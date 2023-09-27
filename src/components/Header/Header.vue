@@ -29,7 +29,7 @@ export default defineComponent({
   data() {
     return {
       navList: [
-        { text: 'Home', link: '/' },
+        { text: 'Home', link: '/home' },
         { text: 'About', link: '/about' },
         { text: 'Pricing', link: '/pricing' },
         { text: 'Facts', link: '/facts' },

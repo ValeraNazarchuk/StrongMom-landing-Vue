@@ -4,8 +4,8 @@ import Form from '../views/Form.vue'
 
 const routes = [
   {
-    path: '/',
-    redirect: '/home', 
+    path: '/index.html',
+    redirect: '/home',
   },
   {
     path: '/home',
