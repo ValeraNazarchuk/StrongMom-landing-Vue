@@ -14,9 +14,4 @@ import Footer from '../src/components/Footer/Footer.vue'
 </script>
 
 <style scoped>
-.wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
 </style>

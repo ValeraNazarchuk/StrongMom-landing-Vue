@@ -3,7 +3,6 @@
     <div class="container">
       <div class="footer__inner">
         <a class="logo footer__logo" href="#"> LOGO </a>
-        <!-- <div class="footer__lists"></div> -->
         <ListRenderer :list="footerMenuList" />
         <ListRenderer :list="footerList" />
         <ListIcons :icons="icons" />
@@ -52,5 +51,4 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-// @import '../assets/styles/blocks/_footer.scss'
 </style>

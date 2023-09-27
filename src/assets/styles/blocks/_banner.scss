@@ -74,6 +74,7 @@
 
 @media (max-width: 769px) {
   .banner {
+    padding-bottom: 40px;
     &__inner {
       flex-direction: column;
     }
@@ -106,7 +107,6 @@
 
 @media (max-width: 481px) {
     .banner {
-    padding: 40px 20px 40px;
     &__title {
       font-size: 35px;
     }

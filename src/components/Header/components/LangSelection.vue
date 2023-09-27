@@ -76,5 +76,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-/* Стили для вашего компонента, если необходимо */
+
 </style>

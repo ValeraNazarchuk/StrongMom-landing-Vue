@@ -15,18 +15,13 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import PrimaryButton from './UI/PrimaryButton.vue'
+import PrimaryButton from '../UI/PrimaryButton.vue'
 
 export default defineComponent({
   name: 'GoToForm',
   components: {
     PrimaryButton,
   },
-  data() {
-    return {}
-  },
-
-  methods: {},
 })
 </script>
 

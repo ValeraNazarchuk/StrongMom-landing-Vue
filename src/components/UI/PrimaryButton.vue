@@ -37,6 +37,7 @@ export default defineComponent({
   cursor: pointer;
   color: $fs-white;
   font-size: 18px;
+  padding: 0 10px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
@@ -45,6 +46,12 @@ export default defineComponent({
   transition: all 0.4s;
   &:hover {
     background-color: $bg-purple-dark;
+  }
+}
+
+@media(max-width: 681px) {
+  .primary-button {
+    font-size: 16px;
   }
 }
 </style>

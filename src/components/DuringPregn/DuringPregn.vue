@@ -3,7 +3,7 @@
     <img class="during-pregn__bg-text" src="../assets/images/Healthy.svg" alt="">
     <div class="during-pregn__inner">
       <div class="during-pregn__img">
-        <img src="../assets/images/during-pregn.png" alt="phone" />
+        <img src="../../assets/images/during-pregn.png" alt="phone" />
       </div>
       <div class="during-pregn__content">
         <h3 class="title">During pregnancy</h3>
@@ -24,13 +24,6 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'SectionDuringPregn',
-  components: {},
-
-  data() {
-    return {}
-  },
-
-  methods: {},
 })
 </script>
 

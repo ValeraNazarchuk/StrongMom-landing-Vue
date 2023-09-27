@@ -18,7 +18,7 @@
         </p>
       </div>
       <div class="before-pregn__img">
-        <img src="../assets/images/before-pregnancy.png" alt="phone">
+        <img src="../../assets/images/before-pregnancy.png" alt="phone" />
       </div>
     </div>
   </section>
@@ -29,13 +29,6 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'SectionBeforePregn',
-  components: {},
-
-  data() {
-    return {}
-  },
-
-  methods: {},
 })
 </script>
 

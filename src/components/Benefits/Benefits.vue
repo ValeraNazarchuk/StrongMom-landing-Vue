@@ -13,13 +13,6 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
   name: 'SectionBenefits',
-  components: {},
-
-  data() {
-    return {}
-  },
-
-  methods: {},
 })
 </script>
 
