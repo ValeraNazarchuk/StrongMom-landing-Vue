@@ -1,6 +1,6 @@
 .go-form {
   margin: 80px 0 160px;
-  padding: 100px;
+  padding: 100px 20px;
   border-radius: 3px;
   background-image: url(../images/bg-go-to-form.png);
   background-position: center;
@@ -8,6 +8,7 @@
   background-size: cover;
   &__inner {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
   }
@@ -16,5 +17,30 @@
     color: $fs-white;
     font-size: 50px;
     font-weight: 700;
+  }
+  &__link {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
+@media(max-width: 1025px) {
+  .go-form {
+    &__inner {
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+}
+
+@media(max-width: 769px) {
+  .go-form {
+    padding: 80px 20px;
+    margin: 70px 0 100px;
+  }
+}
+@media(max-width: 641px) {
+  .go-form {
+    padding: 50px 20px;
   }
 }

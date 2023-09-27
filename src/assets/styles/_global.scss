@@ -41,6 +41,7 @@ body {
   color: $fs-white;
   font-size: 50px;
   font-weight: 700;
+  line-height: normal;
 }
 
 .border-line {
@@ -49,4 +50,23 @@ body {
   width: 46px;
   height: 3px;
   background: #ff2d55;
+}
+
+@media(max-width: 641px) {
+  .title{
+    font-size: 30px;
+  }
+  .subtitle {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+  .form-title {
+    font-size: 40px;
+  }
+}
+
+@media(max-width: 481px) {
+  .form-title {
+    font-size: 35px;
+  }
 }

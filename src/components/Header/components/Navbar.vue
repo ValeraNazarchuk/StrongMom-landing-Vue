@@ -8,7 +8,7 @@
       <span class="nav__burger-line"></span>
     </div>
     <ul class="nav__list" :class="{ 'nav__list--active': isOpen }">
-      <li v-for="(item, index) in list" :key="index" class="nav__list-item">
+      <li v-for="(item, index) in list" :key="index" class="nav__list-item" @click="toggleMenu">
         <RouterLink class="nav__item-link" :to="item.link">{{
           item.text
         }}</RouterLink>

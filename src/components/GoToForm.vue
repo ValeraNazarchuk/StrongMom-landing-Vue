@@ -2,7 +2,7 @@
   <section class="go-form">
     <div class="go-form__inner">
       <h3 class="form-title">Send your data</h3>
-      <RouterLink to="/form">
+      <RouterLink class="go-form__link" to="/form">
         <PrimaryButton
           buttonText="Go to form"
           buttonWidth="400px"

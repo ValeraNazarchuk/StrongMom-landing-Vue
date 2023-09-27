@@ -12,7 +12,11 @@
               buttonWHeight="45px"
               :onClick="toggleDropdown"
             />
-            <ul v-if="isDropdownOpen" class="header__down-dropdown" @mouseleave="hideList">
+            <ul
+              v-show="isDropdownOpen"
+              class="header__down-dropdown"
+              @mouseleave="hideList"
+            >
               <li v-for="(item, index) in dropdownItems" :key="index">
                 <a
                   class="header__down-link"
@@ -68,12 +72,11 @@ export default defineComponent({
     toggleDropdown() {
       this.isDropdownOpen = !this.isDropdownOpen
     },
-        hideList() {
+    hideList() {
       this.isDropdownOpen = false
     },
   },
 })
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

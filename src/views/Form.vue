@@ -68,19 +68,5 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-.form {
-  margin: 200px 0 100px;
-  &__inner {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;
-    padding: 60px 0;
-    border-radius: 3px;
-    background-image: url(../assets/images/bg-page-form.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
+
 </style>

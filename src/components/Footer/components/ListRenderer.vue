@@ -1,26 +1,18 @@
 <template>
-  <div>
-    <ul class="footer__list">
-      <li
-        class="footer__list-item"
-        v-for="(item, index) in list"
-        :key="index"
-      >
-        <RouterLink class="footer__list-link" :to="item.link">{{
-          item.text
-        }}</RouterLink>
-      </li>
-    </ul>
-  </div>
+  <ul class="footer__list">
+    <li class="footer__list-item" v-for="(item, index) in list" :key="index">
+      <RouterLink class="footer__list-link" :to="item.link">{{
+        item.text
+      }}</RouterLink>
+    </li>
+  </ul>
 </template>
-
-
 
 <script lang="ts">
 import { PropType, defineComponent } from 'vue'
 
 interface IProps {
-  text: string,
+  text: string
   link: string
 }
 
@@ -36,5 +28,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-/* Стили для вашего компонента, если необходимо */
+
 </style>

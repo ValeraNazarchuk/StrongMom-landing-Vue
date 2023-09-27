@@ -26,7 +26,9 @@
           </a>
         </div>
       </div>
-      <img class="banner__img" src="../assets/images/banner-iphone.png" alt="" />
+      <div class="banner__img"> 
+        <img src="../assets/images/banner-iphone.png" alt="" />
+      </div>
     </div>
   </section>
 </template>

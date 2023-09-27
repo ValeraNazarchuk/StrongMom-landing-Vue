@@ -9,6 +9,7 @@
   position: relative;
   &__inner {
     display: flex;
+    justify-content: space-between;
   }
   &__content {
     max-width: 500px;
@@ -43,9 +44,85 @@
 
   &__img {
     position: absolute;
-    top: 120px;
+    bottom: -50px;
     right: 0;
     max-width: 540px;
-    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .banner {
+    padding: 105px 45px 195px 25px;
+    &__content {
+      max-width: 400px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__box {
+      gap: 20px;
+    }
+    &__img {
+      position: static;
+      max-width: 400px;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .banner {
+    &__inner {
+      flex-direction: column;
+    }
+    &__content {
+      max-width: none;
+      margin-bottom: 20px;
+    }
+    &__box {
+      gap: 5px;
+      justify-content: space-evenly;
+    }
+    &__img {
+      align-self: center;
+    }
+  }
+}
+
+@media (max-width: 681px) {
+  .banner {
+    padding: 40px 20px 40px;
+    &__title {
+      font-size: 34px;
+    }
+    &__text {
+      margin-top: 25px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 481px) {
+    .banner {
+    padding: 40px 20px 40px;
+    &__title {
+      font-size: 35px;
+    }
+    &__text {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    &__img{
+      max-width: 300px;
+    }
+    &__box {
+      &-link {
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
 }

@@ -20,11 +20,12 @@ export default defineComponent({
   computed: {
     buttonStyle() {
       return {
-        width: this.buttonWidth,
+        maxWidth: this.buttonWidth,
         height: this.buttonWHeight,
       }
     },
   },
+  
 })
 </script>
 
@@ -32,6 +33,7 @@ export default defineComponent({
 @import '../../assets/styles/vars';
 
 .primary-button {
+  width: 100%;
   cursor: pointer;
   color: $fs-white;
   font-size: 18px;

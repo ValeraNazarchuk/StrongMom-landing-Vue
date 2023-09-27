@@ -27,3 +27,33 @@
     }
   }
 }
+
+@media(max-width: 1025px) {
+  .during-pregn {
+    &__content {
+      max-width: 425px;
+    }
+  }
+}
+
+@media(max-width: 769px) {
+  .during-pregn {
+    &__inner {
+      flex-direction: column-reverse;
+    }
+    &__content {
+      max-width: none;
+    }
+    &__img {
+      max-width: 400px;
+    }
+  }
+}
+
+@media (max-width: 481px) {
+  .during-pregn {
+    &__img {
+      max-width: 300px;
+    }
+  }
+}
