@@ -4,7 +4,7 @@ import Form from '../views/Form.vue'
 
 const routes = [
   {
-    path: '/index.html',
+    path: '/StrongMom-landing-Vue',
     redirect: '/home',
   },
   {
