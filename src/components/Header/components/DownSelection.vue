@@ -1,22 +1,19 @@
 <template>
   <div class="header__down-box">
     <PrimaryButton
-      buttonText="Download"
+      :buttonText="$t('header.down.button')"
       buttonMaxWidth="165px"
       buttonWHeight="45px"
       :onClick="toggleDropdown"
     />
-    <ul
+    <div
       v-show="isDropdownOpen"
       class="header__down-dropdown"
       @mouseleave="hideList"
     >
-      <li v-for="(item, index) in dropdownItems" :key="index">
-        <a class="header__down-link" :href="item.link" target="_blank">{{
-          item.text
-        }}</a>
-      </li>
-    </ul>
+      <a class="header__down-link" href="https://www.apple.com/ua/app-store/" target="_blank">{{ $t('header.down.buttonApp') }}</a>
+      <a class="header__down-link" href="https://play.google.com/store/games?hl=uk&gl=US" target="_blank">{{ $t('header.down.buttonGoogle')  }}</a>
+    </div>
   </div>
 </template>
 
@@ -54,6 +51,4 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

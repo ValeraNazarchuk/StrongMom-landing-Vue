@@ -41,7 +41,7 @@ export default defineComponent({
   cursor: pointer;
   color: $fs-white;
   font-size: 18px;
-  padding: 0 10px;
+  padding: 0 5px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
@@ -55,7 +55,7 @@ export default defineComponent({
 
 @media(max-width: 681px) {
   .primary-button {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 </style>

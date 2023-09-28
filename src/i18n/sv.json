@@ -1,0 +1,65 @@
+{
+  "header": {
+    "navList": [
+      { "text": "Home", "link": "/home" },
+      { "text": "About", "link": "/about" },
+      { "text": "Pricing", "link": "/pricing" },
+      { "text": "Facts", "link": "/facts" },
+      { "text": "Blog", "link": "/blog" },
+      { "text": "Support", "link": "/support" }
+    ],
+    "lang": {
+      "buttonEn": "English",
+      "buttonSv": "Sverige"
+    },
+    "down": {
+      "button": "Nedladdning",
+      "buttonApp": "App Store",
+      "buttonGoogle": "Google Play"
+    }
+  },
+  "banner": {
+    "title": "Stark för livet med oss",
+    "subtitle": "Den bästa appen för träning före och efter graviditet! 100 övningar uppdelade på före, under och efter graviditeten. Håll dig stark och frisk genom alla stadier av graviditeten."
+  },
+  "work": {
+    "title": "Hur fungerar den?",
+    "subtitle": "Enkel, rolig och viktig träning för mammor",
+    "content": [
+      {
+        "title": "Bläddra bland övningar",
+        "text": "Bläddra bland över 100 övningar med en video eller bild och en beskrivning."
+      },
+      {
+        "title": "Skapa tidslinje",
+        "text": "Ta bilder längs vägen under och efter graviditeten för att se förvandlingen."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Före, under och efter graviditet",
+    "subtitle": "Appen är indelad i tre olika stadier för att hjälpa dig att välja lämpliga övningar. Varje övning är noggrant utvald för att säkerställa säkra och lämpliga justeringar för att följa graviditetens framsteg."
+  },
+  "beforePregn": {
+    "title": "Före graviditet",
+    "textTop": "Börja förbereda dig inför graviditeten med säkra övningar som bygger upp en stark kropp.",
+    "subtitle": "Trimester",
+    "textBottom": "Graviditeten är indelad i första trimestern, andra trimestern del 1 och 2 samt tredje trimestern del 1 och 2 för att ge övningar som är säkra för varje skede av graviditeten. Varje övning har en video och en beskrivning så att du kan utföra övningen på ett säkert sätt. Ange bara ditt förlossningsdatum så kommer du till rätt stadium."
+  },
+  "duringPregn": {
+    "title": "Under graviditet",
+    "text": "Att träna under graviditeten har många fördelar för både mamman och barnet. Det kan minska ryggsmärtor, hjälpa till att förebygga graviditetsdiabetes, främja god hållning, styrka och uthållighet, och även förbättra förmågan att hantera förlossningen."
+  },
+  "goToForm": {
+    "title": "Skicka dina uppgifter",
+    "button": "Gå till formuläret"
+  },
+  "form": {
+    "title": "Skicka dina uppgifter",
+    "placeholderName": "Förnamn",
+    "placeholderSecond": "Andra namn",
+    "placeholderEmail": "E-post",
+    "placeholderAdress": "Adress",
+    "buttonText": "Skicka"
+  }
+}

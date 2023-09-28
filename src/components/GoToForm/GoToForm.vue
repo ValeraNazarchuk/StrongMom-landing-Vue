@@ -4,7 +4,7 @@
       <h3 class="form-title">Send your data</h3>
       <RouterLink class="go-form__link" to="/form">
         <PrimaryButton
-          buttonText="Go to form"
+          :buttonText="$t('goToForm.button')"
           buttonMaxWidth="400px"
           buttonWHeight="60px"
         />

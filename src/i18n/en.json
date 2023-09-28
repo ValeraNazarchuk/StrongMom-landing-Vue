@@ -1,0 +1,65 @@
+{
+  "header": {
+    "navList": [
+      { "text": "Home1", "link": "/home" },
+      { "text": "About1", "link": "/about" },
+      { "text": "Pricing", "link": "/pricing" },
+      { "text": "Facts", "link": "/facts" },
+      { "text": "Blog", "link": "/blog" },
+      { "text": "Support", "link": "/support" }
+    ],
+    "lang": {
+      "buttonEn": "English",
+      "buttonSv": "Sverige"
+    },
+    "down": {
+      "button": "Download",
+      "buttonApp": "App Store",
+      "buttonGoogle": "Google Play"
+    }
+  },
+  "banner": {
+    "title": "Strong for life with us",
+    "subtitle": "The best Pre/postnatal fitness app! 100 exercises divided in before, during and after pregnancy. Stay strong and healthy through all stages of pregnancy."
+  },
+  "work": {
+    "title": "How does it work?",
+    "subtitle": "Easy, fun & essential training for moms",
+    "content": [
+      {
+        "title": "Browse exercises",
+        "text": "Browse over 100 exercises with a video or picture and a description."
+      },
+      {
+        "title": "Create timeline",
+        "text": "Take pictures along the way during and after the pregnancy to see the transformation."
+      }
+    ]
+  },
+  "benefits" : {
+    "title": "Before, during and after pregnancy",
+    "subtitle": "The app is divided into three different stages to help you choose appropriate exercises. Each exercise is carefully selected to ensure safe and appropriate adjustments to follow the pregnancy’s progress."
+  },
+  "beforePregn": {
+    "title": "Before pregnancy",
+    "textTop": "Start preparing for pregnancy with safe exercises that build up a strong body.",
+    "subtitle": "Trimesters",
+    "textBottom": "The pregnancy is divided into first trimester, second trimester part 1 and 2, and third trimester part 1 and 2 to provide exercises that are safe for each stage of the pregnancy. Each exercise comes with a video and a description so you can safely perform each exercise. Simple put in your due date and you will be taken to the proper stage."
+  },
+  "duringPregn": {
+    "title": "During pregnancy",
+    "text": "Working out during pregnancy has many benefits for both the mom and the baby. It can reduce back pain, help prevent gestational diabetes, promote good posture, strength and endurance, and also improve the ability to cope with labor."
+  },
+  "goToForm": {
+    "title": "Send your data",
+    "button": "Go To Form"
+  },
+  "form": {
+    "title": "Send your data",
+    "placeholderName": "First Name",
+    "placeholderSecond": "Second Name",
+    "placeholderEmail": "Email",
+    "placeholderAdress": "Adress",
+    "buttonText": "Submit"
+  }
+}

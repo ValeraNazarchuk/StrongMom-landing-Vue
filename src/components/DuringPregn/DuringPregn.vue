@@ -6,14 +6,9 @@
         <img src="../../assets/images/during-pregn.png" alt="phone" />
       </div>
       <div class="during-pregn__content">
-        <h3 class="title">During pregnancy</h3>
+        <h3 class="title">{{ $t('duringPregn.title') }}</h3>
         <span class="border-line"></span>
-        <p class="during-pregn__content-text">
-          Working out during pregnancy has many benefits for both the mom and
-          the baby. It can reduce back pain, help prevent gestational diabetes,
-          promote good posture, strength and endurance, and also improve the
-          ability to cope with labor.
-        </p>
+        <p class="during-pregn__content-text">{{ $t('duringPregn.text') }}</p>
       </div>
     </div>
   </section>

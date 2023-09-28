@@ -5,18 +5,26 @@
         <h3 class="form-title">Send your data</h3>
         <CustomInput
           v-model="data.firstName"
-          placeholder="First Name"
+          :placeholder="$t('form.placeholderName')"
           type="text"
         />
         <CustomInput
           v-model="data.secondName"
-          placeholder="Second Name"
+          :placeholder="$t('form.placeholderSecond')"
           type="text"
         />
-        <CustomInput v-model="data.email" placeholder="Email" type="email" />
-        <CustomInput v-model="data.adress" placeholder="Adress" type="text" />
+        <CustomInput
+          v-model="data.email"
+          :placeholder="$t('form.placeholderEmail')"
+          type="email"
+        />
+        <CustomInput
+          v-model="data.adress"
+          :placeholder="$t('form.placeholderAdress')"
+          type="text"
+        />
         <PrimaryButton
-          buttonText="Submit"
+          :buttonText="$t('form.buttonText')"
           @click="handleClick"
           buttonMaxWidth="400px"
           buttonWHeight="60px"
@@ -61,12 +69,10 @@ export default defineComponent({
         secondName: '',
         email: '',
         adress: '',
-      };
+      }
     },
   },
 })
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

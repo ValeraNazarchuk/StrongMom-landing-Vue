@@ -1,7 +1,7 @@
 <template>
   <div class="header__lang-box">
     <button @click="toggleDropdownLang" class="header__lang-btn">
-      {{ selectedLanguage.substring(0, 3) }}
+      {{ selectedLanguage }}
       <img
         :class="{ 'rotate-icon': isListVisible }"
         src="../../../assets/images/icons/arrow-down.svg"
@@ -13,14 +13,21 @@
       @mouseleave="isListVisible = false"
       class="header__lang-dropdown"
     >
-      <button
-        class="header__lang-item"
-        v-for="(lang, index) in languages"
-        :key="index"
-        @click="selectLanguage(lang)"
-      >
-        <img :src="lang.icon" alt="Language Icon" class="header__lang-icon" />
-        {{ lang.name }}
+      <button class="header__lang-item" @click="changeLanguage('en')">
+        <img
+          src="../../../assets/images/icons/english.svg"
+          alt="Language Icon"
+          class="header__lang-icon"
+        />
+        {{ $t('header.lang.buttonEn') }}
+      </button>
+      <button class="header__lang-item" @click="changeLanguage('sv')">
+        <img
+          src="../../../assets/images/icons/sweden.svg"
+          alt="Language Icon"
+          class="header__lang-icon"
+        />
+        {{ $t('header.lang.buttonSv') }}
       </button>
     </div>
   </div>
@@ -29,25 +36,12 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import swedenIcon from '../../../assets/images/icons/sweden.svg'
-import englishIcon from '../../../assets/images/icons/english.svg'
-
 export default defineComponent({
   name: 'LangSelection',
   data() {
     return {
       isListVisible: false,
-      selectedLanguage: 'English',
-      languages: [
-        {
-          name: 'Sverige',
-          icon: swedenIcon,
-        },
-        {
-          name: 'English',
-          icon: englishIcon,
-        },
-      ],
+      selectedLanguage: 'Eng',
     }
   },
 
@@ -55,9 +49,14 @@ export default defineComponent({
     toggleDropdownLang() {
       this.isListVisible = !this.isListVisible
     },
-    selectLanguage(language: { name: string; icon: string }) {
-      this.selectedLanguage = language.name
+    selectLanguage(language: string) {
+      if (language === 'en') this.selectedLanguage = 'Eng'
+      else this.selectedLanguage = 'Sve'
+    },
+    changeLanguage(locale: string) {
+      this.$i18n.locale = locale
       this.isListVisible = false
+      this.selectLanguage(locale)
     },
   },
 })

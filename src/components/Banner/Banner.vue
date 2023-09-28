@@ -2,13 +2,9 @@
   <section class="banner">
     <div class="banner__inner">
       <div class="banner__content">
-        <h1 class="banner__title">Strong for life with us</h1>
+        <h1 class="banner__title">{{ $t('banner.title') }}</h1>
         <span class="border-line"></span>
-        <p class="banner__text">
-          The best Pre/postnatal fitness app! 100 exercises divided in before,
-          during and after pregnancy. Stay strong and healthy through all stages
-          of pregnancy.
-        </p>
+        <p class="banner__text">{{ $t('banner.subtitle') }}</p>
         <div class="banner__box">
           <a
             class="banner__box-link"
