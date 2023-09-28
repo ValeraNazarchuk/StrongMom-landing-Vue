@@ -1,6 +1,10 @@
 <template>
   <ul class="blog__list">
-    <li class="blog__list-item" v-for="(item, index) in data" :key="index">
+    <li
+      class="blog__list-item"
+      v-for="(item, index) in translatedItems"
+      :key="index"
+    >
       <RouterLink class="blog__list-link" to="/blog">
         <img class="blog__list-img" :src="item.img" alt="photo" />
         <div class="blog__list-content">
@@ -21,6 +25,9 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
+import enData from '../../../i18n/en.json'
+import svData from '../../../i18n/sv.json'
+
 import blogImg1 from '../../../assets/images/blog/img_1.png'
 import blogImg2 from '../../../assets/images/blog/img_2.png'
 import blogImg3 from '../../../assets/images/blog/img_3.png'
@@ -33,46 +40,54 @@ export default defineComponent({
   name: 'ListBlogs',
   data() {
     return {
-      data: [
+      currentLanguage: 'en',
+      en: enData,
+      sv: svData,
+      icons: [
         {
           img: blogImg1,
-          title:
-            'Return to running after pregnancy – Is your body strong enough for running?',
           authorIcon: blogAuthorIcon,
-          author: 'BY TILDA LOFTIN',
-          date: 'JUNE 25, 2021',
         },
         {
           img: blogImg2,
-          title: 'Stroller walks',
           authorIcon: '',
-          author: '',
-          date: 'APRIL 21, 2021',
         },
         {
           img: blogImg3,
-          title: 'Playground workout',
           authorIcon: '',
-          author: '',
-          date: 'MARCH 17, 2020',
         },
         {
           img: blogImg4,
-          title: 'Your Essential Fitness Gear for Each Trimester',
           authorIcon: '',
-          author: '',
-          date: 'FEBRUARY 21, 2021',
         },
         {
           img: blogImg5,
-          title:
-            'What YOU could gain by working with a Woman’s Health Physical Therapist ',
           authorIcon: '',
-          author: '',
-          date: 'JANUARY 23, 2020',
         },
       ],
     }
+  },
+  computed: {
+    translatedItems() {
+      this.currentLanguage = this.$i18n.locale
+      if (this.currentLanguage === 'en') {
+        return this.en.blog.listBlogs.map((item: any, index: any) => ({
+          title: item.title,
+          author: item.author,
+          date: item.date,
+          img: this.icons[index].img,
+          authorIcon: this.icons[index].authorIcon,
+        }))
+      } else {
+        return this.sv.blog.listBlosg.map((item: any, index: any) => ({
+          title: item.title,
+          author: item.author,
+          date: item.date,
+          img: this.icons[index].img,
+          authorIcon: this.icons[index].authorIcon,
+        }))
+      }
+    },
   },
 })
 </script>

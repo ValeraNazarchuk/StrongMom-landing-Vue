@@ -3,8 +3,8 @@
     <div class="container">
       <div class="footer__inner">
         <a class="logo footer__logo" href="#"> LOGO </a>
-        <ListRenderer :list="footerMenuList" />
-        <ListRenderer :list="footerList" />
+        <ListRenderer :list="translatedMenuList" />
+        <ListRenderer :list="translatedContentList" />
         <ListIcons :icons="icons" />
       </div>
     </div>
@@ -21,6 +21,9 @@ import instagramIcon from '../../assets/images/icons/Instagram.svg'
 import youTubeIcon from '../../assets/images/icons/YouTube.svg'
 import pinterestIcon from '../../assets/images/icons/Pinterest.svg'
 
+import enData from '../../i18n/en.json'
+import svData from '../../i18n/sv.json'
+
 export default defineComponent({
   name: 'Footer',
   components: {
@@ -29,15 +32,18 @@ export default defineComponent({
   },
   data() {
     return {
+            currentLanguage: 'en',
+      en: enData,
+      sv: svData,
       footerMenuList: [
         { text: 'About', link: '/about' },
         { text: 'Facts', link: '/facts' },
         { text: 'Support', link: '/support' },
       ],
-      footerList: [
-        { text: 'Terms & Conditions', link: '' },
-        { text: 'Privacy Policy', link: '' },
-        { text: 'Cookies', link: '' },
+      footerContentnList: [
+        { text: 'Terms & Conditions', link: '/terms' },
+        { text: 'Privacy Policy', link: '/policy' },
+        { text: 'Cookies', link: '/cookies' },
       ],
       icons: [
         { icon: facebookIcon, link: '' },
@@ -46,6 +52,18 @@ export default defineComponent({
         { icon: pinterestIcon, link: '' },
       ],
     }
+  },
+    computed: {
+    translatedMenuList() {
+      this.currentLanguage = this.$i18n.locale
+      if (this.currentLanguage === 'en') return this.en.footer.menuList
+      else return this.sv.footer.menuList
+    },
+    translatedContentList() {
+      this.currentLanguage = this.$i18n.locale
+      if (this.currentLanguage === 'en') return this.en.footer.contentnList
+      else return this.sv.footer.contentnList
+    },
   },
 })
 </script>

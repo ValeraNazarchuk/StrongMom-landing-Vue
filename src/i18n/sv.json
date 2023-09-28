@@ -1,12 +1,12 @@
 {
   "header": {
     "navList": [
-      { "text": "Home", "link": "/home" },
-      { "text": "About", "link": "/about" },
+      { "text": "Hem", "link": "/home" },
+      { "text": "Om", "link": "/about" },
       { "text": "Pricing", "link": "/pricing" },
-      { "text": "Facts", "link": "/facts" },
-      { "text": "Blog", "link": "/blog" },
-      { "text": "Support", "link": "/support" }
+      { "text": "Fakta", "link": "/facts" },
+      { "text": "Blogg", "link": "/blog" },
+      { "text": "Stöd", "link": "/support" }
     ],
     "lang": {
       "buttonEn": "English",
@@ -50,6 +50,37 @@
     "title": "Under graviditet",
     "text": "Att träna under graviditeten har många fördelar för både mamman och barnet. Det kan minska ryggsmärtor, hjälpa till att förebygga graviditetsdiabetes, främja god hållning, styrka och uthållighet, och även förbättra förmågan att hantera förlossningen."
   },
+  "blog": {
+    "title": "Våra blogginlägg",
+    "listBlosg": [
+      {
+        "title": "Återgå till löpning efter graviditet - Är din kropp tillräckligt stark för löpning?",
+        "author": "BY TILDA LOFTIN",
+        "date": "JUNI 25, 2021"
+      },
+      {
+        "title": "Barnvagn promenader",
+        "author": "",
+        "date": "APRIL 21, 2021"
+      },
+      {
+        "title": "Playground workout",
+        "author": "",
+        "date": "MARS 17, 2020"
+      },
+      {
+        "title": "Träning på lekplats",
+        "author": "",
+        "date": "FEBRUARI 21, 2021"
+      },
+      {
+        "title": "Vad DU kan vinna på att arbeta med en fysioterapeut från Woman's Health",
+        "author": "",
+        "date": "JANUARI 23, 2020"
+      }
+    ],
+    "moreText": "Gillar du vad du ser?"
+  },
   "goToForm": {
     "title": "Skicka dina uppgifter",
     "button": "Gå till formuläret"
@@ -61,5 +92,35 @@
     "placeholderEmail": "E-post",
     "placeholderAdress": "Adress",
     "buttonText": "Skicka"
+  },
+  "footer": {
+    "menuList": [
+      {
+        "text": "Om",
+        "link": "/about"
+      },
+      {
+        "text": "Fakta",
+        "link": "/facts"
+      },
+      {
+        "text": "Stöd",
+        "link": "/support"
+      }
+    ],
+    "contentnList": [
+      {
+        "text": "Villkor & bestämmelser",
+        "link": "/about"
+      },
+      {
+        "text": "Integritetspolicy",
+        "link": "/facts"
+      },
+      {
+        "text": "Kakor",
+        "link": "/support"
+      }
+    ]
   }
 }

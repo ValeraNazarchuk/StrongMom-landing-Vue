@@ -1,8 +1,8 @@
 {
   "header": {
     "navList": [
-      { "text": "Home1", "link": "/home" },
-      { "text": "About1", "link": "/about" },
+      { "text": "Home", "link": "/home" },
+      { "text": "About", "link": "/about" },
       { "text": "Pricing", "link": "/pricing" },
       { "text": "Facts", "link": "/facts" },
       { "text": "Blog", "link": "/blog" },
@@ -36,7 +36,7 @@
       }
     ]
   },
-  "benefits" : {
+  "benefits": {
     "title": "Before, during and after pregnancy",
     "subtitle": "The app is divided into three different stages to help you choose appropriate exercises. Each exercise is carefully selected to ensure safe and appropriate adjustments to follow the pregnancy’s progress."
   },
@@ -50,6 +50,37 @@
     "title": "During pregnancy",
     "text": "Working out during pregnancy has many benefits for both the mom and the baby. It can reduce back pain, help prevent gestational diabetes, promote good posture, strength and endurance, and also improve the ability to cope with labor."
   },
+  "blog": {
+    "title": "Our blog posts",
+    "listBlogs": [
+      {
+        "title": "Return to running after pregnancy – Is your body strong enough for running?",
+        "author": "BY TILDA LOFTIN",
+        "date": "JUNE 25, 2021"
+      },
+      {
+        "title": "Stroller walks",
+        "author": "",
+        "date": "APRIL 21, 2021"
+      },
+      {
+        "title": "Playground workout",
+        "author": "",
+        "date": "MARCH 17, 2020"
+      },
+      {
+        "title": "Your Essential Fitness Gear for Each Trimester",
+        "author": "",
+        "date": "FEBRUARY 21, 2021"
+      },
+      {
+        "title": "What YOU could gain by working with a Woman’s Health Physical Therapist",
+        "author": "",
+        "date": "JANUARY 23, 2020"
+      }
+    ],
+    "moreText": "Like what you see?"
+  },
   "goToForm": {
     "title": "Send your data",
     "button": "Go To Form"
@@ -61,5 +92,35 @@
     "placeholderEmail": "Email",
     "placeholderAdress": "Adress",
     "buttonText": "Submit"
+  },
+  "footer": {
+    "menuList": [
+      {
+        "text": "About",
+        "link": "/about"
+      },
+      {
+        "text": "Facts",
+        "link": "/facts"
+      },
+      {
+        "text": "Support",
+        "link": "/support"
+      }
+    ],
+    "contentnList": [
+      {
+        "text": "Terms & Conditions",
+        "link": "/terms"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "/policy"
+      },
+      {
+        "text": "Cookies",
+        "link": "/cookies"
+      }
+    ]
   }
 }
