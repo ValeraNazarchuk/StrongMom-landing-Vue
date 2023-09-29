@@ -2,7 +2,7 @@
   <ul class="blog__list">
     <li
       class="blog__list-item"
-      v-for="(item, index) in translatedItems"
+      v-for="(item, index) in blogsOutput"
       :key="index"
     >
       <RouterLink class="blog__list-link" to="/blog">
@@ -70,7 +70,7 @@ export default defineComponent({
     }
   },
   computed: {
-    translatedItems() {
+    blogsOutput() {
       const data =
         this.currentLanguage === this.$i18n.locale ? this.en : this.sv
       return data.blog.listBlogs.map((item: IListBlogs, index: any) => ({

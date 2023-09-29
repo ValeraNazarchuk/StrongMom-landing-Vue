@@ -9,7 +9,7 @@
     </div>
     <ul class="nav__list" :class="{ 'nav__list--active': isOpen }">
       <li
-        v-for="(item, index) in translatedItems"
+        v-for="(item, index) in dataOutput"
         :key="index"
         class="nav__list-item"
         @click="toggleMenu"
@@ -50,7 +50,7 @@ export default defineComponent({
     }
   },
   computed: {
-    translatedItems() {
+    dataOutput() {
       const data =
         this.currentLanguage === this.$i18n.locale ? this.en : this.sv
 
