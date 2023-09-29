@@ -51,9 +51,10 @@ export default defineComponent({
   },
   computed: {
     translatedItems() {
-      this.currentLanguage = this.$i18n.locale
-      if (this.currentLanguage === 'en') return this.en.header.navList
-      if (this.currentLanguage === 'sv') return this.sv.header.navList
+      const data =
+        this.currentLanguage === this.$i18n.locale ? this.en : this.sv
+
+      return data.header.navList
     },
   },
   methods: {

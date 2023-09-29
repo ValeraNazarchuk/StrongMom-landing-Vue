@@ -28,11 +28,13 @@
     "content": [
       {
         "title": "Browse exercises",
-        "text": "Browse over 100 exercises with a video or picture and a description."
+        "text": "Browse over 100 exercises with a video or picture and a description.",
+        "icon": "/src/assets/images/icons/work-search.svg"
       },
       {
         "title": "Create timeline",
-        "text": "Take pictures along the way during and after the pregnancy to see the transformation."
+        "text": "Take pictures along the way during and after the pregnancy to see the transformation.",
+        "icon": "/src/assets/images/icons/work-timeline.svg"
       }
     ]
   },
@@ -56,27 +58,37 @@
       {
         "title": "Return to running after pregnancy – Is your body strong enough for running?",
         "author": "BY TILDA LOFTIN",
-        "date": "JUNE 25, 2021"
+        "date": "JUNE 25, 2021",
+        "img": "/src/assets/images/blog/img_1.png" ,
+        "authorIcon": "/src/assets/images/blog/author.png" 
       },
       {
         "title": "Stroller walks",
         "author": "",
-        "date": "APRIL 21, 2021"
+        "date": "APRIL 21, 2021",
+        "img": "/src/assets/images/blog/img_2.png",
+        "authorIcon": ""
       },
       {
         "title": "Playground workout",
         "author": "",
-        "date": "MARCH 17, 2020"
+        "date": "MARCH 17, 2020",
+        "img": "/src/assets/images/blog/img_3.png",
+        "authorIcon": ""
       },
       {
         "title": "Your Essential Fitness Gear for Each Trimester",
         "author": "",
-        "date": "FEBRUARY 21, 2021"
+        "date": "FEBRUARY 21, 2021",
+        "img": "/src/assets/images/blog/img_4.png",
+        "authorIcon": ""
       },
       {
         "title": "What YOU could gain by working with a Woman’s Health Physical Therapist",
         "author": "",
-        "date": "JANUARY 23, 2020"
+        "date": "JANUARY 23, 2020",
+        "img": "/src/assets/images/blog/img_5.png",
+        "authorIcon": ""
       }
     ],
     "moreText": "Like what you see?"

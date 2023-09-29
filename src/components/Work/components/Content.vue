@@ -41,20 +41,9 @@ export default defineComponent({
   },
   computed: {
     translatedItems() {
-      this.currentLanguage = this.$i18n.locale
-      if (this.currentLanguage === 'en') {
-        return this.en.work.content.map((item: any, index: any) => ({
-          title: item.title,
-          text: item.text,
-          icon: this.icons[index].icon
-        }))
-      } else {
-        return this.sv.work.content.map((item: any, index: any) => ({
-          title: item.title,
-          text: item.text,
-          icon: this.icons[index].icon
-        }))
-      }
+      const data =
+        this.currentLanguage === this.$i18n.locale ? this.en : this.sv
+      return data.work.content
     },
   },
 })

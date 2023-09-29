@@ -32,19 +32,9 @@ export default defineComponent({
   },
   data() {
     return {
-            currentLanguage: 'en',
+      currentLanguage: 'en',
       en: enData,
       sv: svData,
-      footerMenuList: [
-        { text: 'About', link: '/about' },
-        { text: 'Facts', link: '/facts' },
-        { text: 'Support', link: '/support' },
-      ],
-      footerContentnList: [
-        { text: 'Terms & Conditions', link: '/terms' },
-        { text: 'Privacy Policy', link: '/policy' },
-        { text: 'Cookies', link: '/cookies' },
-      ],
       icons: [
         { icon: facebookIcon, link: '' },
         { icon: instagramIcon, link: '' },
@@ -53,20 +43,21 @@ export default defineComponent({
       ],
     }
   },
-    computed: {
+  computed: {
     translatedMenuList() {
-      this.currentLanguage = this.$i18n.locale
-      if (this.currentLanguage === 'en') return this.en.footer.menuList
-      else return this.sv.footer.menuList
+      const data =
+        this.currentLanguage === this.$i18n.locale ? this.en : this.sv
+
+      return data.footer.menuList
     },
     translatedContentList() {
-      this.currentLanguage = this.$i18n.locale
-      if (this.currentLanguage === 'en') return this.en.footer.contentnList
-      else return this.sv.footer.contentnList
+      const data =
+        this.currentLanguage === this.$i18n.locale ? this.en : this.sv
+
+      return data.footer.contentnList
     },
   },
 })
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

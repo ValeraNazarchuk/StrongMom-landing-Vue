@@ -2,7 +2,7 @@
   <form class="form" @submit.prevent>
     <div class="container">
       <div class="form__inner">
-        <h3 class="form-title">Send your data</h3>
+        <h3 class="form-title">{{ $t('form.title') }}</h3>
         <CustomInput
           v-model="data.firstName"
           :placeholder="$t('form.placeholderName')"

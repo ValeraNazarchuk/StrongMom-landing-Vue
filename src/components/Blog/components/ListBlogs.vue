@@ -69,24 +69,8 @@ export default defineComponent({
   },
   computed: {
     translatedItems() {
-      this.currentLanguage = this.$i18n.locale
-      if (this.currentLanguage === 'en') {
-        return this.en.blog.listBlogs.map((item: any, index: any) => ({
-          title: item.title,
-          author: item.author,
-          date: item.date,
-          img: this.icons[index].img,
-          authorIcon: this.icons[index].authorIcon,
-        }))
-      } else {
-        return this.sv.blog.listBlosg.map((item: any, index: any) => ({
-          title: item.title,
-          author: item.author,
-          date: item.date,
-          img: this.icons[index].img,
-          authorIcon: this.icons[index].authorIcon,
-        }))
-      }
+      const data = this.currentLanguage === this.$i18n.locale ? this.en : this.sv;
+      return data.blog.listBlogs
     },
   },
 })

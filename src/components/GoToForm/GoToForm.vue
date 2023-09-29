@@ -1,7 +1,7 @@
 <template>
   <section class="go-form">
     <div class="go-form__inner">
-      <h3 class="form-title">Send your data</h3>
+      <h3 class="form-title">{{ $t('goToForm.title') }}</h3>
       <RouterLink class="go-form__link" to="/form">
         <PrimaryButton
           :buttonText="$t('goToForm.button')"

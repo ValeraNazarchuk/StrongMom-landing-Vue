@@ -9,8 +9,8 @@
       { "text": "Stöd", "link": "/support" }
     ],
     "lang": {
-      "buttonEn": "English",
-      "buttonSv": "Sverige"
+      "buttonEn": "Engelska",
+      "buttonSv": "Sweden"
     },
     "down": {
       "button": "Nedladdning",
@@ -28,11 +28,13 @@
     "content": [
       {
         "title": "Bläddra bland övningar",
-        "text": "Bläddra bland över 100 övningar med en video eller bild och en beskrivning."
+        "text": "Bläddra bland över 100 övningar med en video eller bild och en beskrivning.",
+        "icon": "/src/assets/images/icons/work-search.svg"
       },
       {
         "title": "Skapa tidslinje",
-        "text": "Ta bilder längs vägen under och efter graviditeten för att se förvandlingen."
+        "text": "Ta bilder längs vägen under och efter graviditeten för att se förvandlingen.",
+        "icon": "/src/assets/images/icons/work-timeline.svg"
       }
     ]
   },
@@ -52,41 +54,51 @@
   },
   "blog": {
     "title": "Våra blogginlägg",
-    "listBlosg": [
+    "listBlogs": [
       {
         "title": "Återgå till löpning efter graviditet - Är din kropp tillräckligt stark för löpning?",
         "author": "BY TILDA LOFTIN",
-        "date": "JUNI 25, 2021"
+        "date": "JUNI 25, 2021",
+        "img": "/src/assets/images/blog/img_1.png",
+        "authorIcon": ""
       },
       {
         "title": "Barnvagn promenader",
         "author": "",
-        "date": "APRIL 21, 2021"
+        "date": "APRIL 21, 2021",
+        "img": "/src/assets/images/blog/img_2.png",
+        "authorIcon": ""
       },
       {
         "title": "Playground workout",
         "author": "",
-        "date": "MARS 17, 2020"
+        "date": "MARS 17, 2020",
+        "img": "/src/assets/images/blog/img_3.png",
+        "authorIcon": ""
       },
       {
         "title": "Träning på lekplats",
         "author": "",
-        "date": "FEBRUARI 21, 2021"
+        "date": "FEBRUARI 21, 2021",
+        "img": "/src/assets/images/blog/img_4.png",
+        "authorIcon": ""
       },
       {
         "title": "Vad DU kan vinna på att arbeta med en fysioterapeut från Woman's Health",
         "author": "",
-        "date": "JANUARI 23, 2020"
+        "date": "JANUARI 23, 2020",
+        "img": "/src/assets/images/blog/img_5.png",
+        "authorIcon": ""
       }
     ],
     "moreText": "Gillar du vad du ser?"
   },
   "goToForm": {
-    "title": "Skicka dina uppgifter",
+    "title": "Skicka dina datar",
     "button": "Gå till formuläret"
   },
   "form": {
-    "title": "Skicka dina uppgifter",
+    "title": "Skicka dina data",
     "placeholderName": "Förnamn",
     "placeholderSecond": "Andra namn",
     "placeholderEmail": "E-post",
