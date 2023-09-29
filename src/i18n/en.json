@@ -28,13 +28,11 @@
     "content": [
       {
         "title": "Browse exercises",
-        "text": "Browse over 100 exercises with a video or picture and a description.",
-        "icon": "/src/assets/images/icons/work-search.svg"
+        "text": "Browse over 100 exercises with a video or picture and a description."
       },
       {
         "title": "Create timeline",
-        "text": "Take pictures along the way during and after the pregnancy to see the transformation.",
-        "icon": "/src/assets/images/icons/work-timeline.svg"
+        "text": "Take pictures along the way during and after the pregnancy to see the transformation."
       }
     ]
   },
@@ -58,37 +56,27 @@
       {
         "title": "Return to running after pregnancy – Is your body strong enough for running?",
         "author": "BY TILDA LOFTIN",
-        "date": "JUNE 25, 2021",
-        "img": "./assets/images/blog/img_1.png" ,
-        "authorIcon": "./assets/images/blog/author.png" 
+        "date": "JUNE 25, 2021"
       },
       {
         "title": "Stroller walks",
         "author": "",
-        "date": "APRIL 21, 2021",
-        "img": "./assets/images/blog/img_2.png",
-        "authorIcon": ""
+        "date": "APRIL 21, 2021"
       },
       {
         "title": "Playground workout",
         "author": "",
-        "date": "MARCH 17, 2020",
-        "img": "./assets/images/blog/img_3.png",
-        "authorIcon": ""
+        "date": "MARCH 17, 2020"
       },
       {
         "title": "Your Essential Fitness Gear for Each Trimester",
         "author": "",
-        "date": "FEBRUARY 21, 2021",
-        "img": "./assets/images/blog/img_4.png",
-        "authorIcon": ""
+        "date": "FEBRUARY 21, 2021"
       },
       {
         "title": "What YOU could gain by working with a Woman’s Health Physical Therapist",
         "author": "",
-        "date": "JANUARY 23, 2020",
-        "img": "./assets/images/blog/img_5.png",
-        "authorIcon": ""
+        "date": "JANUARY 23, 2020"
       }
     ],
     "moreText": "Like what you see?"

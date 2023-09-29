@@ -70,7 +70,14 @@ export default defineComponent({
   computed: {
     translatedItems() {
       const data = this.currentLanguage === this.$i18n.locale ? this.en : this.sv;
-      return data.blog.listBlogs
+      // return data.blog.listBlogs
+      return data.blog.listBlogs.map((item: any, index: any) => ({
+          title: item.title,
+          author: item.author,
+          date: item.date,
+          img: this.icons[index].img,
+          authorIcon: this.icons[index].authorIcon,
+        }))
     },
   },
 })

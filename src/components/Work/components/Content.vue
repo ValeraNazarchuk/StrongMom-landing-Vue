@@ -43,7 +43,11 @@ export default defineComponent({
     translatedItems() {
       const data =
         this.currentLanguage === this.$i18n.locale ? this.en : this.sv
-      return data.work.content
+      return data.work.content.map((item: any, index: any) => ({
+        title: item.title,
+        text: item.text,
+        icon: this.icons[index].icon,
+      }))
     },
   },
 })
