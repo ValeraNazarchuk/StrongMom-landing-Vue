@@ -4,7 +4,7 @@
       <div class="footer__inner">
         <a class="logo footer__logo" href="#"> LOGO </a>
         <ListRenderer :list="translatedMenuList" />
-        <ListRenderer :list="translatedContentList" />
+        <ListRenderer :list="translatedLegalList" />
         <ListIcons :icons="icons" />
       </div>
     </div>
@@ -50,11 +50,11 @@ export default defineComponent({
 
       return data.footer.menuList
     },
-    translatedContentList() {
+    translatedLegalList() {
       const data =
         this.currentLanguage === this.$i18n.locale ? this.en : this.sv
 
-      return data.footer.contentnList
+      return data.footer.legalLinks
     },
   },
 })

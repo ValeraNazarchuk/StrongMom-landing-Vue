@@ -30,13 +30,6 @@ export default defineComponent({
   data() {
     return {
       isDropdownOpen: false,
-      dropdownItems: [
-        { text: 'App Store', link: 'https://www.apple.com/ua/app-store/' },
-        {
-          text: 'Google Play',
-          link: 'https://play.google.com/store/games?hl=uk&gl=US',
-        },
-      ],
     }
   },
 

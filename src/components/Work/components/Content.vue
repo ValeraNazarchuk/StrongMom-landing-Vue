@@ -1,7 +1,7 @@
 <template>
   <div
     class="work__content"
-    v-for="(item, index) in translatedItems"
+    v-for="(item, index) in dataOutput"
     :key="index"
   >
     <img class="work__content-icon" :src="item.icon" alt="icon" />
@@ -18,6 +18,8 @@
 import { defineComponent } from 'vue'
 import searchIcon from '../../../assets/images/icons/work-search.svg'
 import timelineIcon from '../../../assets/images/icons/work-timeline.svg'
+
+import { IWorkContent } from '../../../interface/index.ts'
 
 import enData from '../../../i18n/en.json'
 import svData from '../../../i18n/sv.json'
@@ -40,10 +42,10 @@ export default defineComponent({
     }
   },
   computed: {
-    translatedItems() {
+    dataOutput() {
       const data =
         this.currentLanguage === this.$i18n.locale ? this.en : this.sv
-      return data.work.content.map((item: any, index: any) => ({
+      return data.work.content.map((item: IWorkContent, index: number) => ({
         title: item.title,
         text: item.text,
         icon: this.icons[index].icon,

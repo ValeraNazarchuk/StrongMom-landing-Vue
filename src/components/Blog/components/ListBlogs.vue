@@ -36,6 +36,8 @@ import blogImg5 from '../../../assets/images/blog/img_5.png'
 
 import blogAuthorIcon from '../../../assets/images/blog/author.png'
 
+import { IListBlogs } from '../../../interface/index.ts'
+
 export default defineComponent({
   name: 'ListBlogs',
   data() {
@@ -69,15 +71,15 @@ export default defineComponent({
   },
   computed: {
     translatedItems() {
-      const data = this.currentLanguage === this.$i18n.locale ? this.en : this.sv;
-      // return data.blog.listBlogs
-      return data.blog.listBlogs.map((item: any, index: any) => ({
-          title: item.title,
-          author: item.author,
-          date: item.date,
-          img: this.icons[index].img,
-          authorIcon: this.icons[index].authorIcon,
-        }))
+      const data =
+        this.currentLanguage === this.$i18n.locale ? this.en : this.sv
+      return data.blog.listBlogs.map((item: IListBlogs, index: any) => ({
+        title: item.title,
+        author: item.author,
+        date: item.date,
+        img: this.icons[index].img,
+        authorIcon: this.icons[index].authorIcon,
+      }))
     },
   },
 })

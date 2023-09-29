@@ -13,17 +13,14 @@
 
 <script lang="ts">
 import { PropType, defineComponent } from 'vue'
+import { IFooterIcons } from '../../../interface/index.ts';
 
-interface IProps {
-  icon: string
-  link: string
-}
 
 export default defineComponent({
   name: 'ListIcons',
   props: {
     icons: {
-      type: Array as PropType<IProps[]>,
+      type: Array as PropType<IFooterIcons[]>,
       required: true,
     },
   },

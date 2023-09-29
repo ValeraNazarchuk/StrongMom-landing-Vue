@@ -10,23 +10,17 @@
 
 <script lang="ts">
 import { PropType, defineComponent } from 'vue'
-
-interface IProps {
-  text: string
-  link: string
-}
+import { IFooterList } from '../../../interface/index.ts'
 
 export default defineComponent({
   name: 'ListRenderer',
   props: {
     list: {
-      type: Array as PropType<IProps[]>,
+      type: Array as PropType<IFooterList[]>,
       required: true,
     },
   },
 })
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
