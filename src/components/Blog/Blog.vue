@@ -8,7 +8,7 @@
         <p class="blog__more-text">{{ $t('blog.moreText') }}</p>
         <RouterLink class="blog__more-link" to="/blog">
           View more
-          <img src="/images/icons/arrow-right.svg" alt="icon" />
+          <img src="../../assets/images/icons/arrow-right.svg" alt="icon" />
         </RouterLink>
       </div>
     </div>

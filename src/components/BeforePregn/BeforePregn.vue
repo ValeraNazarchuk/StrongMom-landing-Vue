@@ -9,7 +9,7 @@
         <p class="before-pregn__content-text">{{ $t('beforePregn.textBottom') }}</p>
       </div>
       <div class="before-pregn__img">
-        <img src="/images/before-pregnancy.png" alt="phone" />
+        <img src="../../assets/images/before-pregnancy.png" alt="phone" />
       </div>
     </div>
   </section>

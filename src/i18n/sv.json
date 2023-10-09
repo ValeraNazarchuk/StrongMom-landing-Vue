@@ -28,13 +28,11 @@
     "content": [
       {
         "title": "Bläddra bland övningar",
-        "text": "Bläddra bland över 100 övningar med en video eller bild och en beskrivning.",
-        "icon": "work-search.svg"
+        "text": "Bläddra bland över 100 övningar med en video eller bild och en beskrivning."
       },
       {
         "title": "Skapa tidslinje",
-        "text": "Ta bilder längs vägen under och efter graviditeten för att se förvandlingen.",
-        "icon": "work-timeline.svg"
+        "text": "Ta bilder längs vägen under och efter graviditeten för att se förvandlingen."
       }
     ]
   },
@@ -58,37 +56,27 @@
       {
         "title": "Återgå till löpning efter graviditet - Är din kropp tillräckligt stark för löpning?",
         "author": "BY TILDA LOFTIN",
-        "date": "JUNI 25, 2021",
-        "img": "img_1.png",
-        "authorIcon": "author.png"
+        "date": "JUNI 25, 2021"
       },
       {
         "title": "Barnvagn promenader",
         "author": "",
-        "date": "APRIL 21, 2021",
-        "img": "img_2.png",
-        "authorIcon": ""
+        "date": "APRIL 21, 2021"
       },
       {
         "title": "Playground workout",
         "author": "",
-        "date": "MARS 17, 2020",
-        "img": "img_3.png",
-        "authorIcon": ""
+        "date": "MARS 17, 2020"
       },
       {
         "title": "Träning på lekplats",
         "author": "",
-        "date": "FEBRUARI 21, 2021",
-        "img": "img_4.png",
-        "authorIcon": ""
+        "date": "FEBRUARI 21, 2021"
       },
       {
         "title": "Vad DU kan vinna på att arbeta med en fysioterapeut från Woman's Health",
         "author": "",
-        "date": "JANUARI 23, 2020",
-        "img": "img_5.png",
-        "authorIcon": ""
+        "date": "JANUARI 23, 2020"
       }
     ],
     "moreText": "Gillar du vad du ser?"
