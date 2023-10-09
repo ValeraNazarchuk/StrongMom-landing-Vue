@@ -1,9 +1,9 @@
 <template>
   <section class="during-pregn">
-    <img class="during-pregn__bg-text" src="../../assets/images/Healthy.svg" alt="">
+    <img class="during-pregn__bg-text" src="/images/Healthy.svg" alt="">
     <div class="during-pregn__inner">
       <div class="during-pregn__img">
-        <img src="../../assets/images/during-pregn.png" alt="phone" />
+        <img src="/images/during-pregn.png" alt="phone" />
       </div>
       <div class="during-pregn__content">
         <h3 class="title">{{ $t('duringPregn.title') }}</h3>

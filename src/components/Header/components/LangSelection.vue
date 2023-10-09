@@ -4,7 +4,7 @@
       {{ selectedLanguage }}
       <img
         :class="{ 'rotate-icon': isListVisible }"
-        src="../../../assets/images/icons/arrow-down.svg"
+        src="/images/icons/arrow-down.svg"
         alt="arrow"
       />
     </button>
@@ -15,7 +15,7 @@
     >
       <button class="header__lang-item" @click="changeLanguage('en')">
         <img
-          src="../../../assets/images/icons/english.svg"
+          src="/images/icons/english.svg"
           alt="Language Icon"
           class="header__lang-icon"
         />
@@ -23,7 +23,7 @@
       </button>
       <button class="header__lang-item" @click="changeLanguage('sv')">
         <img
-          src="../../../assets/images/icons/sweden.svg"
+          src="/images/icons/sweden.svg"
           alt="Language Icon"
           class="header__lang-icon"
         />
