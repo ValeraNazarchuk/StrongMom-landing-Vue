@@ -4,6 +4,8 @@
 @import 'global';
 
 @import "blocks/_header";
+@import "blocks/_footer";
+
 @import "blocks/_banner";
 @import "blocks/_work";
 @import "blocks/_benefits";
@@ -11,5 +13,8 @@
 @import "blocks/_duringPregn";
 @import "blocks/_blog";
 @import "blocks/_goToForm";
-@import "blocks/_footer";
+
+@import "blocks/_about-banner";
+@import "blocks/about-creaters";
+
 @import "blocks/_form";

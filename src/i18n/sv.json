@@ -122,5 +122,16 @@
         "link": "/support"
       }
     ]
+  },
+  "aboutBanner": {
+    "title": "Om STRONGMom",
+    "textTop": "Maria och Tilda växte upp i Motala och blev tidigt goda vänner. Kanske började de planera för framtiden redan då...",
+    "textBottom": "Maria och Tilda blev gravida med sitt första barn, faktiskt nästan samtidigt. De började diskutera bristen på information om träning under och efter graviditet och inspirerades av Marias idé om att bygga en app för träning under och efter graviditet. De började med att utveckla en app som var säker, lämplig och enkel för alla mammor att använda."
+  },
+  "aboutCreaters": {
+    "textTop": "Skaparna av STRONGMom",
+    "title": "Om Maria & Tilda",
+    "aboutMaria": "Maria är mamma till två barn. Hon har en passion för träning och speciellt för träning under graviditet. Hon är certifierad personlig tränare på SAFE education med inriktning på gravidträning. Hon har tidigare arbetat ett antal år inom försäljning innan hennes passion för fitness och träning blev hennes arbetsliv. Maria bor och arbetar i Malmö i södra Sverige.",
+    "aboutTilda": "Tilda är mamma till två barn. Hon är NASM-certifierad personlig tränare, certifierad massageterapeut och uthållighetscoach med över 15 års erfarenhet och hennes passion för träning och hälsa växer ständigt. Hon är också massageterapeut för gravida kvinnor och massagespecialist. Kombinationen av hennes färdigheter har gett henne en djupare förståelse för hur hon kan hjälpa sina kunder att nå sin fulla potential. Hon har arbetat med mammor och blivande mammor i över 17 år och hennes mål är att alla mammor ska vara friska och starka. Tilda bor och arbetar i Mill Valley, strax utanför San Francisco, USA."
   }
 }
