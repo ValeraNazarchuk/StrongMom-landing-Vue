@@ -57,7 +57,7 @@ export default defineComponent({
   },
   methods: {
     handleClick() {
-      console.log(`
+      alert(`
         Відправлені дані:
         firstName: ${this.data.firstName}
         secondName: ${this.data.secondName}
